@@ -7,7 +7,7 @@
 # Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
 
 FROM node:18.20.4-alpine
-ENV process.env.NODE_ENV=development
+
 WORKDIR /app
 
 RUN yarn install
