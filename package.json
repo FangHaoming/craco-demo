@@ -4,7 +4,9 @@
   "author": "fanghaoming",
   "license": "MIT",
   "scripts": {
-    "start": "craco start"
+    "start": "craco start",
+    "build": "craco build",
+    "serve": "serve -s build -l 3000"
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
@@ -15,7 +17,8 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.3"
   },
   "browserslist": {
     "production": [
